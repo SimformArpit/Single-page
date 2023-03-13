@@ -295,3 +295,8 @@ a img {
 footer p {
   margin: 5px;
 }
+.firstss {
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+ padding: 40px 100px;
+}
