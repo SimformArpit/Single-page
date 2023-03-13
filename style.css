@@ -206,6 +206,7 @@ hr {
 .seconds {
   display: grid;
   grid-template-columns: repeat(3, 500px);
+  margin-left: 160px;
 
   /* grid-auto-flow: min; */
 
