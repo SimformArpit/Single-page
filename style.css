@@ -245,8 +245,12 @@ hr {
   flex-direction: column;
 }
 .para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px 300px;
   color: rgb(240, 230, 236);
+ 
 }
 .head {
   color: aqua;
@@ -255,9 +259,9 @@ hr {
   margin-top: 80px;
   font-size: 20px;
 }
-.teammemb {
+/* .teammemb {
   margin-left: 130px;
-}
+} */
 .first-1 {
   display: flex;
   align-items: center;
@@ -298,7 +302,12 @@ footer p {
   margin: 5px;
 }
 .firstss {
-  display: grid;
-  grid-template-columns: repeat(3, 500px);
- padding: 40px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
